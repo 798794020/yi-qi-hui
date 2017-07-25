@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!--优先使用IE最新版本和Chrome-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chome=1" />
+    <!--视口--设备宽度--初始缩放比例--最小缩放比例--最大缩放比例--用户缩放-->
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+    <!--禁止浏览器自动的识别-电话号码-email--->
+    <meta name="format-detection" content="telephone=no,email=no"/>
+    <!--是否启用Web全屏-->
+    <meta name="apple-mobile-web-app-capable" content='yes' />
+    <meta name="apple-mobile-web-status-bar-style" content="normal|black|black-translucent">
+    <!--设置苹果工具栏颜色-->
+    <meta name="apple-mobile-web-app-status-bar-style" content='black' />
+    <link rel="stylesheet" type="text/css" href="css/sign.css">
+    <link rel="stylesheet" type="text/css" href="css/base.css">
+</head>
+<body>
+    <div class="top">
+        <div class="header">
+            <p><img src="img/sing_logo_03.png"></p>
+            <p style="font-size: 0.8rem;font-weight: bold">注册</p>
+            <p><img src="img/img_53.png"></p>
+        </div>
+    </div>
+
+
+    <div class="main">
+        <div class="main_one">
+            <p>账号</p>
+        </div>
+        <div class="main_two">
+            <input type="text" placeholder="请输入用户名，长度2-15个字符"/>
+        </div>
+    </div>
+    <div class="main">
+        <div class="main_one">
+            <p>密码</p>
+        </div>
+        <div class="main_two">
+            <input type="text" placeholder="请输入登陆密码，长度6-20个字符"/>
+        </div>
+    </div>
+    <div class="main_pass">
+        <div class="main_passone">
+            <p>确认密码</p>
+        </div>
+        <div class="main_passtwo">
+            <input type="text" placeholder="请再次输入密码"/>
+        </div>
+    </div>
+    <div class="main">
+        <div class="main_one">
+            <p>邮箱</p>
+        </div>
+        <div class="main_two">
+            <input type="text" placeholder="用于激活账号和接受返利订单信息"/>
+        </div>
+    </div>
+    <div class="main">
+        <div class="main_one">
+            <p>QQ号</p>
+        </div>
+        <div class="main_two">
+            <input type="text" placeholder="进关放幼稚群验证使用"/>
+        </div>
+    </div>
+    <div class="main">
+        <div class="main_one">
+            <p>手机号</p>
+        </div>
+        <div class="main_two">
+            <input type="text" placeholder="请输入手机号"/>
+        </div>
+    </div>
+    <div class="main_btn">
+        <div class="main_btnone">
+            <p>校验码</p>
+        </div>
+        <div class="main_btntwo">
+            <input type="text" placeholder="请输入手机效验码"/>
+        </div>
+        <div class="main_btnthree">
+            <input type="button" value="获取效验码" />
+        </div>
+    </div>
+    <div class="true">
+        <input type="button" value="确认注册" />
+    </div>
+    <div class="deal">
+        <p><span style="color: #666;">注册就代表您同意</span>我们的服务协议</p>
+        <P><span style="color: #666;"><a href="#">已有账号？</a></span><a href="#">马上登录</a></P>
+    </div>
+    <div class="loagin">
+        <div class="jion"></div>
+        <p>使用合作网站账号登陆</p>
+    </div>
+<div class="icon">
+    <img src="img/icon_08.png">
+</div>
+</body>
+<script>
+    (function(win,doc){
+        //浏览器缩放时
+        win.onresize=function(){
+            change();
+        };
+        change();
+        function change(){
+            var oFs=doc.documentElement.clientWidth/(414/20);
+
+            //设置根目录字体大小
+            doc.documentElement.style.fontSize=oFs+'px';
+        }
+    })(window,document);
+</script>
+</html>

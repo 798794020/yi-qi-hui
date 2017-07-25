@@ -1,0 +1,183 @@
+*{margin:0;padding:0;}
+html,body{width:100%;height:100%;}
+.top{
+    width:100%;
+    height:2.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header{
+    width:90%;
+    height:2.25rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+}
+.main{
+    width:100%;
+    height:2.5rem;
+    display: flex;
+    border-top:0.75rem solid #eee;
+}
+.main_one{
+    width:15%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+    font-weight: bold;
+    border-right:1px solid #eee;
+}
+.main_two{
+    width:84%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.main_two>input{
+    width:98%;
+    height:100%;
+}
+
+.main_pass{
+    width:100%;
+    height:2.5rem;
+    display: flex;
+    border-top:0.75rem solid #eee;
+}
+.main_passone{
+    width:20%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+    font-weight: bold;
+    border-right:1px solid #eee;
+}
+.main_passtwo{
+    width:79%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.main_passtwo>input{
+    width:98%;
+    height:100%;
+}
+
+
+.main_btn{
+    width:100%;
+    height:2.5rem;
+    display: flex;
+    border-top:0.75rem solid #eee;
+}
+.main_btnone{
+    width:15%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.7rem;
+    font-weight: bold;
+    border-right:1px solid #eee;
+}
+.main_btntwo{
+    width:60%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+.main_btnthree{
+    width:24%;
+    height:100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main_btntwo>input{
+    width:98%;
+    height:100%;
+}
+.main_btnthree>input{
+    width:100%;
+    height:2.5rem;
+    background: dodgerblue;
+    text-align: center;
+    line-height:2.5rem;
+    color: #fff;
+
+}
+.true{
+    width:100%;
+    height:2.25rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+    font-weight: bold;
+    border-top: 1.5rem solid #eee;
+    background:#eee;
+}
+.true>input{
+    width:95%;
+    height:2.25rem;
+    text-align: center;
+    line-height:2.25rem;
+    background: red;
+    color: #fff;
+    border-radius: 4%;
+}
+.deal{
+    width:100%;
+    height:2.25rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    background:#eee;
+}
+
+.loagin{
+    width:100%;
+    height:2.25rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 0.7rem;
+    position: relative;
+    background: #eeeeee;
+}
+.jion{
+    width:100%;
+    height:2px;
+    background: #cccccc;
+    position: absolute;
+    top:10px;
+}
+.loagin>p{
+    width:8rem;
+    height:2.25rem;
+    background: #eeeeee;
+    position: absolute;
+    top:0px;
+    text-align: center;
+}
+.icon{
+    width:100%;
+    height:3.5rem;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background: #eeeeee;
+}
+.icon>img{
+    width:2.25rem;
+    height:2.25rem;
+}
